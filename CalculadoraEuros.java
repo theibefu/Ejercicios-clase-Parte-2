@@ -4,7 +4,7 @@ public class CalculadoraEuros {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Que cantidad de pesetas desea cambiar a euros?");
+		System.out.println("Que cantidad de pesetas quieres cambiar a euros?");
 		float pesetas = teclado.nextFloat();
 		if (pesetas>0)
 			{System.out.printf("Son %.2f €", (pesetas/166.386));
